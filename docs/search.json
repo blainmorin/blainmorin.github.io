@@ -5,5 +5,19 @@
     "title": "C. Blain Morin",
     "section": "",
     "text": "Welcome! This is an experimental website!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTest Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog_posts/test_post.html",
+    "href": "blog_posts/test_post.html",
+    "title": "Test Post",
+    "section": "",
+    "text": "I would really like to be able to get Obsidian to communicate here."
   }
 ]
