@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "C. Blain Morin",
+    "objectID": "pics.html",
+    "href": "pics.html",
+    "title": "Pics",
     "section": "",
-    "text": "Welcome! This is an experimental website!"
+    "text": "Rascal!\n\n\n\n\n\nOur $5 Foot Long\n\n\n\n\n\nRascal!\nOur $5 Foot Long"
+  },
+  {
+    "objectID": "blog_posts/test_post.html",
+    "href": "blog_posts/test_post.html",
+    "title": "Test Post",
+    "section": "",
+    "text": "I would really like to be able to get Obsidian to communicate here."
   },
   {
     "objectID": "blog.html",
@@ -14,10 +21,10 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTest Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog_posts/test_post.html",
-    "href": "blog_posts/test_post.html",
-    "title": "Test Post",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "C. Blain Morin",
     "section": "",
-    "text": "I would really like to be able to get Obsidian to communicate here."
+    "text": "Welcome! This is an experimental website!"
   }
 ]
