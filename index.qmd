@@ -1,0 +1,15 @@
+---
+title: "C. Blain Morin"
+about:
+  template: "jolla"
+  image: "resources/images/app_trail.jpg"
+  links:
+    - icon: linkedin
+      text: " "
+      href: "https://www.linkedin.com/in/blainmorin/"
+    - icon: envelope-fill
+      text: " "
+      href: "mailto:morin.42@osu.edu"
+---
+
+Welcome! This is an experimental website!
