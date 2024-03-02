@@ -4,5 +4,11 @@
     "items": [
       "/blog_posts/test_post.html"
     ]
+  },
+  {
+    "listing": "/pics.html",
+    "items": [
+      "/pic_groups/kikkoman.html"
+    ]
   }
 ]

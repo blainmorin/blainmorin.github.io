@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "pics.html",
-    "href": "pics.html",
-    "title": "Pics",
+    "objectID": "pic_groups/kikkoman.html",
+    "href": "pic_groups/kikkoman.html",
+    "title": "Our Cat Kikkoman",
     "section": "",
     "text": "Rascal!\n\n\n\n\n\nOur $5 Foot Long\n\n\n\n\n\nRascal!\nOur $5 Foot Long"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "C. Blain Morin",
+    "section": "",
+    "text": "Welcome! This is an experimental website!"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTest Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog_posts/test_post.html",
@@ -14,17 +28,10 @@
     "text": "I would really like to be able to get Obsidian to communicate here."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "pics.html",
+    "href": "pics.html",
+    "title": "Pics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nTest Post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "C. Blain Morin",
-    "section": "",
-    "text": "Welcome! This is an experimental website!"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nOur Cat Kikkoman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
