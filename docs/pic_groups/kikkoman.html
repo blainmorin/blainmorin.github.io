@@ -143,13 +143,13 @@ ul.task-list li input[type="checkbox"] {
 <div style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../resources/images/kikko_table.jpg" class="lightbox" data-gallery="Our-Cat-Kikkomon" data-glightbox="description: .lightbox-desc-1" title="Rascal"><img src="../resources/images/kikko_table.jpg" class="img-fluid figure-img" alt="Rascal"></a></p>
+<p><a href="../resources/images/kikko_table.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="Our-Cat-Kikkomon" title="Rascal"><img src="../resources/images/kikko_table.jpg" class="img-fluid figure-img" alt="Rascal"></a></p>
 <figcaption>Rascal</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../resources/images/kikko_baby.jpg" class="lightbox" data-gallery="Our-Cat-Kikkomon" data-glightbox="description: .lightbox-desc-2" title="Our Five Dollar Foot Long"><img src="../resources/images/kikko_baby.jpg" class="img-fluid figure-img" alt="Our Five Dollar Foot Long"></a></p>
+<p><a href="../resources/images/kikko_baby.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="Our-Cat-Kikkomon" title="Our Five Dollar Foot Long"><img src="../resources/images/kikko_baby.jpg" class="img-fluid figure-img" alt="Our Five Dollar Foot Long"></a></p>
 <figcaption>Our Five Dollar Foot Long</figcaption>
 </figure>
 </div>
@@ -550,7 +550,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"top","openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"top"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
