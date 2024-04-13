@@ -1,14 +1,15 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/pics.html",
     "items": [
-      "/blog_posts/test_post.html"
+      "/pic_groups/Hawaii.html",
+      "/pic_groups/kikkoman.html"
     ]
   },
   {
-    "listing": "/pics.html",
+    "listing": "/blog.html",
     "items": [
-      "/pic_groups/kikkoman.html"
+      "/blog_posts/test_post.html"
     ]
   }
 ]
