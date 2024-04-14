@@ -39,9 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -140,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="gallery page-columns page-full">
 <div class="column-page">
-<p><a href="../resources/images/Hawaii/IMG_1992.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_1992.jpg" class="img-fluid" style="column-span: all;"></a> <a href="../resources/images/Hawaii/IMG_2020.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_2020.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_2059.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_2059.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_2125.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_2125.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_2272.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_2272.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5023.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5023.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5075.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5075.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5194.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5194.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5321.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5321.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5370.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5370.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5454.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5454.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5572.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5572.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_5762.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_5762.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/IMG_6046.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/IMG_6046.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/PXL_20220511_211011103.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/PXL_20220511_211011103.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Hawaii/PXL_20230110_001036044.jpg" class="lightbox" data-gallery="Hawaii-gallery"><img src="../resources/images/Hawaii/PXL_20230110_001036044.jpg" class="img-fluid" style="column-span: none;"></a></p>
+
 </div>
 </div>
 
@@ -535,31 +532,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
