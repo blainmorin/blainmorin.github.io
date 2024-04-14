@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -137,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="gallery page-columns page-full">
 <div class="column-page">
-
+<p><a href="../resources/images/Kikkoman/IMG_6510.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/IMG_6510.jpg" class="img-fluid" style="column-span: all;"></a> <a href="../resources/images/Kikkoman/IMG_7122.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/IMG_7122.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Kikkoman/IMG_7790.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/IMG_7790.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Kikkoman/PXL_20220809_022047842.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/PXL_20220809_022047842.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Kikkoman/PXL_20220815_221907441.MP.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/PXL_20220815_221907441.MP.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Kikkoman/PXL_20221223_192516755.MP.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/PXL_20221223_192516755.MP.jpg" class="img-fluid" style="column-span: none;"></a> <a href="../resources/images/Kikkoman/PXL_20230923_014149092.jpg" class="lightbox" data-gallery="Kikkoman-gallery"><img src="../resources/images/Kikkoman/PXL_20230923_014149092.jpg" class="img-fluid" style="column-span: none;"></a></p>
 </div>
 </div>
 
@@ -532,6 +535,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
