@@ -1,16 +1,25 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/pics.html",
     "items": [
-      "/blog_posts/test_post.html"
+      "/pic_groups/Amanda.html",
+      "/pic_groups/Desk is a Mess.html",
+      "/pic_groups/Fishin.html",
+      "/pic_groups/Hawaii.html",
+      "/pic_groups/kikkoman.html",
+      "/pic_groups/Motorcycles.html",
+      "/pic_groups/Ohio.html",
+      "/pic_groups/Pennsylvania.html",
+      "/pic_groups/Pointing.html",
+      "/pic_groups/Random.html",
+      "/pic_groups/Rhode Island.html",
+      "/pic_groups/Yakin.html"
     ]
   },
   {
-    "listing": "/pics.html",
+    "listing": "/blog.html",
     "items": [
-      "/pic_groups/Hawaii.html",
-      "/pic_groups/kikkoman.html",
-      "/pic_groups/Ohio.html"
+      "/blog_posts/test_post.html"
     ]
   }
 ]
