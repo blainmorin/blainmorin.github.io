@@ -25,21 +25,14 @@
     "href": "blog_posts/selecting_evaluation_metric_FARS.html",
     "title": "Selecting an Evaluation Metric for Race and Ethnicity Imputation in FARS",
     "section": "",
-    "text": "In machine learning, the evaluation metric is a crucial component of the model development process. The evaluation metric is used to assess the performance of a model and determine how well it is performing on a given task. The choice of evaluation metric can have a significant impact on the model results. Here, I provide an overview of how I selected the evaluation metric for the imputation model that predicts the race and ethnicity of people in the Fatality Analysis Reporting System.\nThe multiclass receiver operating characteristic area under the curve (mROCAUC) is selected for the race and ethnicity imputation model because it aligns with the disparity estimation objective of the study."
+    "text": "In machine learning, the evaluation metric is a crucial component of the model development process. The evaluation metric is used to assess the performance of a model and determine how well it is performing on a given task. The choice of evaluation metric can have a significant impact on the model results. Here, I provide an overview of how I selected the evaluation metric for the imputation model that predicts the race and ethnicity of people in the Fatality Analysis Reporting System.\nThe multiclass receiver operating characteristic area under the curve (mROCAUC) is selected for the race and ethnicity imputation model because it aligns with the disparity estimation objective of the study.\n\n\n\nOutput will be used to compare outcomes between racial and ethnic groups\n\nEx. \\(p(DrugTest) \\sim \\beta_0 + \\beta_1 Racenicity + \\epsilon\\)\n\nOut performance metric needs to align with the intended use of the model\n\nGoal: minimize systematic missclassifications\n\\(MROC_{AUC} = \\frac{1}{C \\times (C - 1)} \\sum_{i=0}^{C-1} \\sum_{j=0, j \\neq i}^{C-1} A(i,j)\\)\nCalculate Average discriminatory power of White v Black, White v Hispanic, White v Other\nIterate for all race and ethnicity classes\nTake the average of these averages"
   },
   {
     "objectID": "blog_posts/selecting_evaluation_metric_FARS.html#decription-of-the-model-objective",
     "href": "blog_posts/selecting_evaluation_metric_FARS.html#decription-of-the-model-objective",
     "title": "Selecting an Evaluation Metric for Race and Ethnicity Imputation in FARS",
-    "section": "Decription of the model objective",
-    "text": "Decription of the model objective\n\nOutput will be used to compare outcomes between racial and ethnic groups\n\nEx. \\(p(DrugTest) \\sim \\beta_0 + \\beta_1 Racenicity + \\epsilon\\)\n\nOut performance metric needs to align with the intended use of the model\n\nGoal: minimize systematic missclassifications\n\\(MROC_{AUC} = \\frac{1}{C \\times (C - 1)} \\sum_{i=0}^{C-1} \\sum_{j=0, j \\neq i}^{C-1} A(i,j)\\)\nCalculate Average discriminatory power of White v Black, White v Hispanic, White v Other\nIterate for all race and ethnicity classes\nTake the average of these averages"
-  },
-  {
-    "objectID": "blog_posts/selecting_evaluation_metric_FARS.html#why-selecting-an-evaluation-metric-should-align-with-the-research-question",
-    "href": "blog_posts/selecting_evaluation_metric_FARS.html#why-selecting-an-evaluation-metric-should-align-with-the-research-question",
-    "title": "Selecting an Evaluation Metric for Race and Ethnicity Imputation in FARS",
-    "section": "Why selecting an evaluation metric should align with the research question",
-    "text": "Why selecting an evaluation metric should align with the research question"
+    "section": "",
+    "text": "Output will be used to compare outcomes between racial and ethnic groups\n\nEx. \\(p(DrugTest) \\sim \\beta_0 + \\beta_1 Racenicity + \\epsilon\\)\n\nOut performance metric needs to align with the intended use of the model\n\nGoal: minimize systematic missclassifications\n\\(MROC_{AUC} = \\frac{1}{C \\times (C - 1)} \\sum_{i=0}^{C-1} \\sum_{j=0, j \\neq i}^{C-1} A(i,j)\\)\nCalculate Average discriminatory power of White v Black, White v Hispanic, White v Other\nIterate for all race and ethnicity classes\nTake the average of these averages"
   },
   {
     "objectID": "index.html",
